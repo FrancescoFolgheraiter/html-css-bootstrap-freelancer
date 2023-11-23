@@ -1,9 +1,77 @@
-
+/*
+    ROOT
+*/
+:root{
+    --mint:#1abc9c;
+    --dark-blue:#2c3e50;
+    --light-blue:#3a546d;
+}
+/*
+    RESET
+*/
+img{
+    width:100%;
+}
 /*
     GENERAL
 */
-
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
+.bar{
+    height:5px;
+    background-color: white;
+    border-radius: 5px;
+}
 
+
+
+/*utility*/
+.main-bg{
+    background-color: var(--mint);
+}
+.second-bg{
+    background-color: var(--dark-blue);
+}
+.third-bg{
+    background-color: var(--light-blue);
+}
+.text-blue{
+    color:var(--dark-blue);
+}
+
+
+/*
+    MAIN
+*/
+main section:first-child .img-container{
+    width: 340px;
+    margin:0 auto;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h1,h2,h3,h4{
+    text-transform: uppercase;
+}
+.dati-personali>*{
+    display:block;
+    border-top: 0;
+    border-right: 0;
+    border-left:0;
+    width:100%;
+}
+
+/*
+    FOOTER
+*/
+.container-social{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:1px solid white;
+    margin: 0 auto;
+}
